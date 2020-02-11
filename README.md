@@ -9,6 +9,7 @@ Custom config for my Creality Ender 3
 - Optimizations for OctoPrint (fixes from: <https://www.thingiverse.com/thing:3626658>)
 - Mesh Bedleveling
 - Slim-LCD-Menus
+- SD-Card-Power-Loss-Resume
 
 ## License
 
