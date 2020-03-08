@@ -7,9 +7,7 @@ Custom config for my Creality Ender 3
 - Based on Marlin 2
 - Works with default Ender 3 Board(1.1.4)
 - Optimizations for OctoPrint (fixes from: <https://www.thingiverse.com/thing:3626658>)
-- Mesh Bedleveling
 - Slim-LCD-Menus
-- SD-Card-Power-Loss-Resume
 
 ## License
 
