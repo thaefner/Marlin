@@ -8,6 +8,7 @@ Custom config for my Creality Ender 3
 - Works with default Ender 3 Board(1.1.4)
 - Optimizations for OctoPrint (fixes from: <https://www.thingiverse.com/thing:3626658>)
 - Slim-LCD-Menus
+- Power-Loss-Resume
 
 ## License
 
