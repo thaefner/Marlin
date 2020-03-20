@@ -4,12 +4,12 @@ My custom SKR Mini E3 config
 
 ## Features
 
+- Marlin 2.5.1
 - based on default SKR Mini E3 config
 - NEOPIXEL support for 4 NEO RGB Leds
 - custom preheat profiles and calibration
 - Optimizations for OctoPrint (fixes from: <https://www.thingiverse.com/thing:3626658>)
 - Slim-LCD-Menus
-- BLTouch Support for this mount: <http://www.thingiverse.com/thing:3437455>
 
 ## License
 
