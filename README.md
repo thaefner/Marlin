@@ -4,7 +4,6 @@ My custom SKR Mini E3 config
 
 ## Features
 
-- Marlin 2.0.5.1
 - based on default SKR Mini E3 config
 - NEOPIXEL support for 4 NEO RGB Leds
 - custom preheat profiles and calibration
