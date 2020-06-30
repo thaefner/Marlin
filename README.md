@@ -9,7 +9,7 @@ My custom SKR Mini E3 config
 - custom preheat profiles and calibration
 - Optimizations for OctoPrint (fixes from: <https://www.thingiverse.com/thing:3626658>)
 - Slim-LCD-Menus
-- BLTouch support(<https://www.thingiverse.com/thing:3733792> based on <https://www.thingiverse.com/thing:3584158>)
+- BLTouch support
 
 ## License
 
