@@ -21,6 +21,7 @@
  */
 #pragma once
 
+#define CONFIG_EXAMPLES_DIR "Creality/Ender-3/BigTreeTech SKR Mini E3 1.2"
 /**
  * Configuration_adv.h
  *
@@ -759,6 +760,7 @@
     #define Z_STEPPER_ALIGN_AMP 1.0
   #endif
 
+  // On a 300mm bed a 5% grade would give a misalignment of ~1.5cm
   #define G34_MAX_GRADE              5    // (%) Maximum incline that G34 will handle
   #define Z_STEPPER_ALIGN_ITERATIONS 3    // Number of iterations to apply during alignment
   #define Z_STEPPER_ALIGN_ACC        0.02 // Stop iterating early if the accuracy is better than this
@@ -1293,7 +1295,6 @@
   // Add an optimized binary file transfer mode, initiated with 'M28 B1'
   //#define BINARY_FILE_TRANSFER
 
-  #if HAS_SDCARD_CONNECTION
     /**
      * Set this option to one of the following (or the board's defaults apply):
      *
@@ -1304,7 +1305,6 @@
      * :[ 'LCD', 'ONBOARD', 'CUSTOM_CABLE' ]
      */
     #define SDCARD_CONNECTION ONBOARD
-  #endif
 
 #endif // SDSUPPORT
 

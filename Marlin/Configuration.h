@@ -21,6 +21,7 @@
  */
 #pragma once
 
+#define CONFIG_EXAMPLES_DIR "Creality/Ender-3/BigTreeTech SKR Mini E3 1.2"
 /**
  * Configuration.h
  *
@@ -1081,7 +1082,7 @@
 // @section extruder
 
 #define DISABLE_E false             // Disable the extruder when not stepping
-#define DISABLE_INACTIVE_EXTRUDER   // Keep only the active extruder enabled
+//#define DISABLE_INACTIVE_EXTRUDER   // Keep only the active extruder enabled
 
 // @section machine
 
@@ -1393,7 +1394,7 @@
 #endif
 
 // Homing speeds (mm/min)
-#define HOMING_FEEDRATE_XY (50*60)
+#define HOMING_FEEDRATE_XY (20*60)
 #define HOMING_FEEDRATE_Z  (4*60)
 
 // Validate that endstops are triggered on homing moves
@@ -1752,7 +1753,7 @@
  * just remove some extraneous menu items to recover space.
  */
 //#define NO_LCD_MENUS
-#define SLIM_LCD_MENUS
+//#define SLIM_LCD_MENUS
 
 //
 // ENCODER SETTINGS
@@ -1806,7 +1807,7 @@
 //
 // Add individual axis homing items (Home X, Home Y, and Home Z) to the LCD menu.
 //
-//#define INDIVIDUAL_AXIS_HOMING_MENU
+#define INDIVIDUAL_AXIS_HOMING_MENU
 
 //
 // SPEAKER/BUZZER
