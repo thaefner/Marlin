@@ -6,8 +6,6 @@ My custom SKR Mini E3 config
 
 - based on default SKR Mini E3 config
 - custom preheat profiles and calibration
-- Optimizations for OctoPrint (fixes from: <https://www.thingiverse.com/thing:3626658>)
-- Slim-LCD-Menus
 - BLTouch support
 
 
