@@ -6,7 +6,6 @@ My custom SKR Mini E3 config
 
 - based on default SKR Mini E3 config
 - custom preheat profiles and calibration
-- BLTouch support
 
 
 ## Marlin 2.0
