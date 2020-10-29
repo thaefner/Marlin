@@ -7,6 +7,7 @@ My custom SKR Mini E3 config
 - based on default SKR Mini E3 config
 - custom preheat profiles and calibration
 - Octoprint optimizations
+- Enabled Linear Advanced
 
 ## Marlin 2.0
 
